@@ -60,6 +60,21 @@
 			</exclusions>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://3.110.45.27:8881/mithuntech/repository/Javalogin-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://3.110.45.27:8881/mithuntech/repository/javalogin-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 
 	<build>
 		<plugins>
